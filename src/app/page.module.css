@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 256px;
+  height: 256px;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 60px;
+}
