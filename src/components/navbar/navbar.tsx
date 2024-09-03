@@ -6,12 +6,23 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <Link href="/">
-        <Image src={logo} alt="logo" />
-      </Link>
-      <Link className={styles.menu} href="/support">
-        Support
-      </Link>
+      <div className={styles.wrap}>
+        <Link className={styles.logo} href="/">
+          <Image src={logo} alt="logo" />
+        </Link>
+        <div className={styles.button_wrap}>
+          <Button href="/support" name="Support" />
+          <Button href="/support" name="Support" />
+        </div>
+      </div>
     </nav>
+  );
+}
+
+function Button({ href, name }: { href: string; name: string }) {
+  return (
+    <Link className={styles.menu} href={href}>
+      {name}
+    </Link>
   );
 }
