@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  contain: content;
+  /* position: absolute;
+  bottom: 0; */
+}

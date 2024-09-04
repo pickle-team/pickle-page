@@ -1,14 +1,14 @@
 import styles from "@/pages/download/download.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import AppStore from "@/../public/icons/appstore.svg";
-import PlayStore from "@/../public/icons/playstore.svg";
+import AppStore from "@/../public/icons/download/appstore.svg";
+import PlayStore from "@/../public/icons/download/playstore.svg";
 import Arrow from "@/../public/icons/arrow_down.svg";
 
 export default function Download() {
   return (
     <div className={styles.container}>
-      <p className={styles.text}>Pickle is delicious.</p>
+      <h1 className={styles.text}>Pickle is delicious.</h1>
       <div className={styles.button_wrap}>
         <Button name="App Store" href="/" />
         <div style={{ width: 20 }} />
