@@ -1,5 +1,6 @@
 .container {
-  height: 100%;
+  width: 100%;
+  height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +9,6 @@
 
 .text {
   font-size: 32px;
-  color: #ffffff;
   margin: 0;
 }
 
@@ -16,6 +16,6 @@
   width: 100%;
   height: auto;
   contain: content;
-  /* position: absolute;
-  bottom: 0; */
+  position: absolute;
+  bottom: 0;
 }
