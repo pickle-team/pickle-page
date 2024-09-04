@@ -2,8 +2,10 @@
 
 * {
   font-family: "Wanted Sans Variable";
+  font-weight: 400;
 }
 
 body {
+  background-color: #000000;
   margin: 0;
 }
