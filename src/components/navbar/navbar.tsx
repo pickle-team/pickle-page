@@ -12,7 +12,6 @@ export default function Navbar() {
         </Link>
         <div className={styles.button_wrap}>
           <Button href="/support" name="Support" />
-          <Button href="/support" name="Support" />
         </div>
       </div>
     </nav>
