@@ -13,10 +13,11 @@
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.2",
+    "@fullpage/react-fullpage": "^0.1.43",
+    "@shinyongjun/react-fullpage": "^1.10.0",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-fullpage": "^0.1.19",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
