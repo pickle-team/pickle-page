@@ -1,5 +1,5 @@
 import styles from "@/pages/post/post.module.css";
-import PostImage from "@/../public/images/pickle_post.svg";
+import PostImage from "@/../public/images/models.png";
 import Image from "next/image";
 
 export default function Post() {
