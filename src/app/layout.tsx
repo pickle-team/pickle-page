@@ -1,10 +1,14 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 
 export const metadata: Metadata = {
   title: "Pickle",
   description: "Pickle Page",
+};
+
+export const viewport: Viewport = {
+  themeColor: [{ color: "#202020" }],
 };
 
 export default function RootLayout({
