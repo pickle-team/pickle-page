@@ -9,7 +9,7 @@
     "lint": "next lint",
     "pages:build": "yarn dlx @cloudflare/next-on-pages",
     "preview": "yarn run pages:build && wrangler pages dev",
-    "deploy": "yarm run pages:build && wrangler pages deploy"
+    "deploy": "yarn run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.2",
